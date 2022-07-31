@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search form</form>
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="icons.svg">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-wrapper">
+            <div class="first-line flex space-between">
+                <div class="price flex">
+                    <span class="rupees">&#x20b9;7047</span>
+                    <p>&nbsp;night</p>
+                </div>
+                <div class="reviews flex">
+                    <svg aria-label="" class="icons">
+                        <use xlink:href="icons.svg#star" />
+                    </svg>
+                    <p><span>4.67</span> <a href="#">.6 reviews</a></p>
+                </div>
+            </div>
+            <form class="form-wrapper flex flex-direction">
+                <button class="forminput-1 btn">
+                    <div class="dates-container flex">
+                        <div class="check-in">
+                            <label for="date">CHECK-IN</label>
+                            <input type="date" id="date" name="date">
+                        </div>
+                        <div class="divider"></div>
+                        <div class="check-out">
+                            <label for="date-in">CHECK-OUT</label>
+                            <input type="date" id="date-in" name="date-in">
+                        </div>
+                    </div>
+                </button>
+                <div class="forminput-2 btn">
+                    <div class="guest flex space-between align-items flex-direction">
+                        <div class="guest-number">
+                            <label for="guestIn">Guests</label>
+                            <label for="guestIn" class="guestnumber" id="guestnumber">1 guest</label>
+                            <!-- <svg aria-label="" class="arrow">
+                                <use xlink:href="icons.svg#arrow" />
+                            </svg> -->
+                        </div>
+                        <input type="checkbox" id="guestIn">
+                        <div class="guest-type">
+                            <div class="list flex space-between">
+                                <div class="adult">
+                                    <span>Adults</span>
+                                    <p>Age 13+</p>
+                                </div>
+                                <div class="button-container flex align-items">
+                                    <button class="round-button fade">
+                                        <svg aria-label="" class="minus">
+                                            <use xlink:href="icons.svg#minus" />
+                                        </svg>
+                                    </button>
+                                    <p>1</p>
+                                    <button class="round-button dark">
+                                        <svg aria-label="" class="plus">
+                                            <use xlink:href="icons.svg#plus" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="list flex space-between">
+                                <div class="Children">
+                                    <span>Children</span>
+                                    <p>Ages 2-12</p>
+                                </div>
+                                <div class="button-container flex align-items">
+                                    <button class="round-button fade">
+                                        <svg aria-label="" class="minus">
+                                            <use xlink:href="icons.svg#minus" />
+                                        </svg>
+                                    </button>
+                                    <p>0</p>
+                                    <button class="round-button dark">
+                                        <svg aria-label="" class="plus">
+                                            <use xlink:href="icons.svg#plus" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="list flex space-between">
+                                <div class="infants">
+                                    <span>Infants</span>
+                                    <p>Under 2</p>
+                                </div>
+                                <div class="button-container flex align-items">
+                                    <button class="round-button fade">
+                                        <svg aria-label="" class="minus">
+                                            <use xlink:href="icons.svg#minus" />
+                                        </svg>
+                                    </button>
+                                    <p>0</p>
+                                    <button class="round-button dark">
+                                        <svg aria-label="" class="plus">
+                                            <use xlink:href="icons.svg#plus" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="list flex space-between">
+                                <div class="pets">
+                                    <span>Pets</span>
+                                    <p>Bringing a service animal ?</p>
+                                </div>
+                                <div class="button-container flex align-items">
+                                    <button class="round-button fade">
+                                        <svg aria-label="" class="minus">
+                                            <use xlink:href="icons.svg#minus" />
+                                        </svg>
+                                    </button>
+                                    <p>0</p>
+                                    <button class="round-button dark">
+                                        <svg aria-label="" class="plus">
+                                            <use xlink:href="icons.svg#plus" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="declaration">
+                                <p>This place has maximum of 2 guests, not including infants. Pets are not allowed.</p>
+                            </div>
+                            <div class="close">
+                                <span>Close</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+            </form>
+            <button class="search-btn">Reserve</button>
+            <p class="text">
+                you won't be charged yet
+            </p>
+            <div class="amount flex space-between">
+                <p>&#x20b9;7047 * 5 Nights</p>
+                <p>&#x20b9;35,235</p>
+            </div>
+            <div class="service-fee flex space-between">
+                <p>Service Fee</p>
+                <p>&#x20b9;4,974</p>
+            </div>
+            <div class="horizontal-line"></div>
+            <div class="total-amt flex space-between">
+                <span>Total before taxes</span>
+                <p>&#x20b9;40,209</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
