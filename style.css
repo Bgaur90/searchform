@@ -80,9 +80,11 @@ svg {
 /*desktop*/
 .container {
   max-width: 500px;
-  margin: auto;
+  margin: 30px auto 0;
   padding: 20px;
-  box-shadow: 2px 2px 2px #f2f2f2;
+  box-shadow: 0px 0px 25px #d1d1d1;
+  border: 1px solid #d1d1d1;
+  border-radius: 15px;
 }
 
 .rupees {
@@ -108,7 +110,7 @@ svg {
 .btn {
   min-height: 56px;
   border: transparent;
-  background: #fff;
+  backgdd: #fff;
   text-align: left;
 }
 
@@ -129,6 +131,7 @@ svg {
 .dates-container {
   width: 100%;
   border: 1px solid #b0b0b0;
+  background-color: #fff;
   border-radius: 10px 10px 0px 0px;
 
 }
@@ -223,7 +226,6 @@ background-color: transparent;
   border: none;
   border-radius: 50%;
   padding: 5px;
-  background-color: none;
   border: 1px solid var(--grey);
 
 }
@@ -241,7 +243,7 @@ background-color: transparent;
   position: absolute;
   max-width: 500px;
   background: #fff;
-  top: 68px;
+  top: 65px;
   border-radius: 5px;
   border: 1px solid #b0b0b0;
 }
@@ -292,17 +294,6 @@ background-color: transparent;
 .guestnumber {
   position: relative;
 }
-
-
-
-/* #guestIn:checked > .guest-number > .guestnumber:after{
-  content: url("data:image/svg+xml,%3Csvg version='1.1' viewBox='0 0 700 700' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m152.37 397.37 197.63-197.62 197.63 197.62c6.8242 6.8281 17.918 6.8281 24.742 0 6.8281-6.8242 6.8281-17.918 0-24.742l-210-210c-6.8242-6.8438-17.918-6.8438-24.742 0l-210 210c-6.8281 6.8242-6.8281 17.918 0 24.742 6.8242 6.8281 17.918 6.8281 24.742 0z' fill-rule='evenodd'/%3E%3C/svg%3E");
-} */
-.minus,
-.plus {
-  width: 10px;
-}
-
 .fade {
   opacity: 0.2;
 }
